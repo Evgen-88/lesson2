@@ -10,7 +10,7 @@ public class GeneratorService {
 		List<Integer> list = new ArrayList<>(3);
 		
 		for(int i = 0; i < 3; i++) {
-			list.add((int) (Math.random() * 10));
+			list.add((int) (Math.random() * 9) + 1);
 		}
 		
 		return new RandomList(list);
