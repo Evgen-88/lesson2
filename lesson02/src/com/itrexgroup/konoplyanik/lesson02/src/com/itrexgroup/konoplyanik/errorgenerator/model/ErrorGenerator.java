@@ -1,5 +1,7 @@
 package com.itrexgroup.konoplyanik.errorgenerator.model;
 
+// Вызываем гору нативных методов чтобы загрузить Metaspace
+
 import java.util.*;
 
 public class ErrorGenerator {
